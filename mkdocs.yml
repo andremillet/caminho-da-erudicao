@@ -87,15 +87,18 @@ nav:
       - Grandezas e Medidas: conteudo-bncc/grandezas-medidas.md
       - Probabilidade e Estatística: conteudo-bncc/probabilidade-estatistica.md
   - Arquitetura:
+      - Visão geral: arquitetura/README.md
       - Visão Geral: arquitetura/visao-geral.md
       - Modelo de Dados: arquitetura/modelo-de-dados.md
       - Tecnologias: arquitetura/tecnologias.md
   - Funcionalidades:
+      - Visão geral: funcionalidades/README.md
       - Usuários: funcionalidades/usuarios.md
       - Banco de Questões: funcionalidades/questoes.md
       - Ranking: funcionalidades/ranking.md
       - Recompensas: funcionalidades/recompensas.md
   - API:
+      - Visão geral: api/README.md
       - Endpoints: api/endpoints.md
 
 extra:
