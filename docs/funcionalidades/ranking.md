@@ -62,7 +62,7 @@ Quando dois usuários têm o mesmo XP:
 - Vantagens: performance previsível, controle de carga.
 - Desvantagens: latência de até 5 minutos para o ranking refletir nova XP.
 
-> A escolha da estratégia depende da stack (ver [`stack.md`](../02-arquitetura/stack.md)). Para a maioria dos casos, **Estratégia 2** é a indicada.
+> A escolha da estratégia depende da stack (ver [`tecnologias.md`](../arquitetura/tecnologias.md)). Para a maioria dos casos, **Estratégia 2** é a indicada.
 
 ## Comportamento por Período
 
@@ -104,7 +104,7 @@ O usuário pode consultar temporadas anteriores (limitado a, por exemplo, últim
 
 ## Endpoints Resumidos (referência)
 
-Ver [`docs/04-api/endpoints.md`](../04-api/endpoints.md).
+Ver [`api/endpoints.md`](../api/endpoints.md).
 
 ```
 GET /rankings/global?periodo=semanal

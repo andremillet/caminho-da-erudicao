@@ -17,7 +17,7 @@ Uma questão de múltipla escolha contém:
 
 ## Classificação pela BNCC
 
-Toda questão deve ser classificada pelos 4 eixos (definidos em [`docs/01-conteudo-bncc/`](../01-conteudo-bncc/README.md)):
+Toda questão deve ser classificada pelos 4 eixos (definidos em [`conteudo-bncc/`](../conteudo-bncc/README.md)):
 
 | Eixo | Valores | Exemplo |
 |---|---|---|
@@ -117,4 +117,4 @@ A longo prazo, o sistema pode apoiar:
 - **Curadoria** por professores convidados.
 - **Banco comunitário** com moderação.
 
-> _Detalhes de versão atual e roadmap ficam em [`visao-geral.md`](../02-arquitetura/visao-geral.md)._
+> _Detalhes de versão atual e roadmap ficam em [`visao-geral.md`](../arquitetura/visao-geral.md)._

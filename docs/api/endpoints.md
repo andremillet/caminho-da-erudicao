@@ -1,23 +1,8 @@
 # Contrato da API
 
-> Documento **conceitual**. Os endpoints abaixo descrevem intenções; a forma concreta (REST/GraphQL, schemas OpenAPI, gRPC) é decisão de stack (ver [`stack.md`](../02-arquitetura/stack.md)).
+> Documento **conceitual**. Os endpoints abaixo descrevem intenções; a forma concreta (REST/GraphQL, schemas OpenAPI, gRPC) é decisão de stack (ver [`tecnologias.md`](../arquitetura/tecnologias.md)).
 
 > Convenção adotada: **REST + JSON** com prefixo `/api/v1`. Todos os endpoints autenticados esperam o header `Authorization: Bearer <token>`.
-
----
-
-## Sumário
-
-- [Autenticação](#autenticação)
-- [Usuários](#usuários)
-- [Questões](#questões)
-- [Tentativas](#tentativas)
-- [Ranking](#ranking)
-- [Badges](#badges)
-- [Loja / Recompensas](#loja--recompensas)
-- [Administração](#administração)
-- [Códigos de Erro Comuns](#códigos-de-erro-comuns)
-- [Modelo de Resposta Padrão](#modelo-de-resposta-padrão)
 
 ---
 

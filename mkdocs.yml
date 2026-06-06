@@ -1,0 +1,107 @@
+site_name: Caminho da Erudição
+site_description: Aplicação de questões de matemática do Ensino Fundamental — Anos Finais (BNCC), com sistema multiusuário, ranking e recompensas.
+site_author: André Millet
+
+site_url: https://andremillet.github.io/caminho-da-erudicao/
+repo_url: https://github.com/andremillet/caminho-da-erudicao
+repo_name: andremillet/caminho-da-erudicao
+edit_uri: edit/main/docs/
+
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  language: pt-BR
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.indexes
+    - navigation.tracking
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+    - content.action.edit
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Modo escuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Modo claro
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      title: Ir para esta seção
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.smartsymbols
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+plugins:
+  - search
+
+nav:
+  - Início: index.md
+  - Conteúdo BNCC:
+      - Visão geral: conteudo-bncc/README.md
+      - Números: conteudo-bncc/numeros.md
+      - Álgebra: conteudo-bncc/algebra.md
+      - Geometria: conteudo-bncc/geometria.md
+      - Grandezas e Medidas: conteudo-bncc/grandezas-medidas.md
+      - Probabilidade e Estatística: conteudo-bncc/probabilidade-estatistica.md
+  - Arquitetura:
+      - Visão Geral: arquitetura/visao-geral.md
+      - Modelo de Dados: arquitetura/modelo-de-dados.md
+      - Tecnologias: arquitetura/tecnologias.md
+  - Funcionalidades:
+      - Usuários: funcionalidades/usuarios.md
+      - Banco de Questões: funcionalidades/questoes.md
+      - Ranking: funcionalidades/ranking.md
+      - Recompensas: funcionalidades/recompensas.md
+  - API:
+      - Endpoints: api/endpoints.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/andremillet
+      name: GitHub
+
+copyright: Copyright © 2026 André Millet

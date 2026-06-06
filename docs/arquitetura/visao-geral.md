@@ -1,6 +1,6 @@
 # Visão Geral da Arquitetura
 
-Documento **agnóstico de stack**. Define os componentes lógicos, responsabilidades e fluxos principais da aplicação. As decisões de tecnologia (linguagem, framework, banco) ficam em [`stack.md`](stack.md).
+Documento **agnóstico de stack**. Define os componentes lógicos, responsabilidades e fluxos principais da aplicação. As decisões de tecnologia (linguagem, framework, banco) ficam em [`tecnologias.md`](tecnologias.md).
 
 ## Componentes Lógicos
 

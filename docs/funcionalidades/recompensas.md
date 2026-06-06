@@ -94,7 +94,7 @@ Ao ganhar uma badge, o cliente recebe:
 
 ### Características
 - **Numerais** — representadas por um número inteiro (`moedas_saldo`).
-- **Auditáveis** — toda movimentação é registrada (ver `MovimentacaoMoeda` no [`modelo-dados.md`](../02-arquitetura/modelo-dados.md)).
+- **Auditáveis** — toda movimentação é registrada (ver `MovimentacaoMoeda` no [`modelo-de-dados.md`](../arquitetura/modelo-de-dados.md)).
 - **Nunca compradas com dinheiro real** (na versão atual) — apenas ganhas em jogo.
 - **Não transferíveis** entre usuários.
 

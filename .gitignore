@@ -11,3 +11,6 @@ Thumbs.db
 
 # Logs
 *.log
+
+# MkDocs build output
+/site/

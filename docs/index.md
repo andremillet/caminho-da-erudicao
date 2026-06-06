@@ -13,10 +13,10 @@ Aplicação de questões de matemática do Ensino Fundamental — Anos Finais (6
 
 | # | Documento | Descrição |
 |---|---|---|
-| 1 | [`docs/01-conteudo-bncc/`](docs/01-conteudo-bncc/README.md) | Conteúdo educacional da BNCC: unidades temáticas, objetos de conhecimento e habilidades de 6º ao 9º ano. |
-| 2 | [`docs/02-arquitetura/`](docs/02-arquitetura/visao-geral.md) | Visão geral da arquitetura, modelo de dados e decisões de stack. |
-| 3 | [`docs/03-features/`](docs/03-features/usuarios.md) | Detalhamento das funcionalidades: usuários, questões, ranking e recompensas. |
-| 4 | [`docs/04-api/endpoints.md`](docs/04-api/endpoints.md) | Contrato REST conceitual dos endpoints da aplicação. |
+| 1 | [`conteudo-bncc/`](conteudo-bncc/README.md) | Conteúdo educacional da BNCC: unidades temáticas, objetos de conhecimento e habilidades de 6º ao 9º ano. |
+| 2 | [`arquitetura/`](arquitetura/visao-geral.md) | Visão geral da arquitetura, modelo de dados e decisões de stack. |
+| 3 | [`funcionalidades/`](funcionalidades/usuarios.md) | Detalhamento das funcionalidades: usuários, questões, ranking e recompensas. |
+| 4 | [`api/endpoints.md`](api/endpoints.md) | Contrato REST conceitual dos endpoints da aplicação. |
 
 ---
 
